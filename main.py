@@ -22,7 +22,7 @@ def muestra_cotizaciones():
     for moneda in monedas:
         buffer.append(cotizacion_de(moneda, moneda_ref))
 
-    for i in range(5):
+    for i in range(300):
         dibuja_cotizaciones(buffer)
         time.sleep(1)
 
